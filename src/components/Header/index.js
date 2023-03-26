@@ -7,10 +7,10 @@ export default function Header() {
     <header>
       <div className="container menu">
         <img src="assets/logo.png" />
-        <nav>
+        <div>
           <Link to="/">Home</Link>
           <Link to="/sabores">Sabores</Link>
-        </nav>
+        </div>
       </div>
     </header>
   );
