@@ -1,0 +1,21 @@
+.contato {
+  background-color: #000000;
+  padding: 80px;
+}
+.box-contato {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.box-contato img {
+  width: 100px;
+}
+
+@media (max-width: 768px) {
+  .box-contato {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,30 @@
+.box-cards-pi {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.box-cards-pi div {
+  width: 50%;
+  object-fit: contain-;
+}
+.box-cards-pi img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.card {
+  padding: 0px 100px;
+  text-align: center;
+}
+.card p {
+  padding-top: 40px;
+}
+
+@media (max-width: 1024px) {
+  .box-cards-pi div {
+    width: 100%;
+  }
+  .card {
+    padding: 100px;
+  }
+}
